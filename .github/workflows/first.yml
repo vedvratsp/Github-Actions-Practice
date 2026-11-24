@@ -12,3 +12,6 @@ jobs:
         
       - name: Printing Hello
         run: echo "Hello public"
+
+      - name: printing everything 
+        run: cd . && du -sh
