@@ -8,4 +8,7 @@ jobs:
       
     steps:
       - name: checking out code
+        uses: actions/checkout@v4
+        
+      - name: Printing Hello
         run: echo "Hello public"
