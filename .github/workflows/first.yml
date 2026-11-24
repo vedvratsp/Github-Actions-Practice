@@ -1,0 +1,11 @@
+name: hellow-world
+on:
+  push:
+    branches: [main]
+jobs:
+  saying-hello:
+    runs-on: ubuntu-latest
+      
+    steps:
+      - name: checking out code
+        run: echo "Hello public"
